@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #a1fcff;
+  }
+  
+  .pokemonContent {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "prev section next"
+      "footer footer footer";
+    grid-template-rows: 80px 1fr 50px;
+    grid-template-columns: 12% 1fr 18%;
+    grid-gap: 5px;
+    height: 100vh;
+  }
+  
+  .prev {
+    grid-area: prev;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prevContent {
+    position: fixed;
+  }
+  
+  .positionCenter {
+    grid-area: section;
+  }
+  
+  .next {
+    grid-area: next;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nextContent {
+    position: fixed;
+  }
+  
+  .header {
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .headerStyle {
+    color: #aee6e3;
+  }
+  
+  .character {
+    margin-top: 120px;
+    margin-bottom: 40px;
+  }
+  
+  .normal {
+    background-color: #a8a878;
+    border: 1px solid #6d6d4e;
+  }
+  
+  .fire {
+    background-color: #f08030;
+    border: 1px solid #9c531f;
+  }
+  
+  .water {
+    background-color: #6890f0;
+    border: 1px solid #445e9c;
+  }
+  
+  .electric {
+    background-color: #f8d030;
+    border: 1px solid #a1871f;
+  }
+  
+  .grass {
+    background-color: #78c850;
+    border: 1px solid #4e8234;
+  }
+  
+  .ice {
+    background-color: #98d8d8;
+    border: 1px solid #638d8d;
+  }
+  
+  .ground {
+    background-color: #e0c068;
+    border: 1px solid #927d44;
+  }
+  
+  .flying {
+    background-color: #a890f0;
+    border: 1px solid #6d5e9c;
+  }
+  
+  .ghost {
+    background-color: #705898;
+    border: 1px solid #493963;
+  }
+  
+  .rock {
+    background-color: #b8a038;
+    border: 1px solid #786824;
+  }
+  
+  .fighting {
+    background-color: #5028c0;
+    border: 1px solid #13096d;
+  }
+  
+  .poison {
+    background-color: #db3417;
+    border: 1px solid #ce4915;
+  }
+  
+  .psychic {
+    background-color: #5df858;
+    border: 1px solid #3ca139;
+  }
+  
+  .bug {
+    background-color: #770707;
+    border: 1px solid #923d3d;
+  }
+  
+  .dark {
+    background-color: #17c7be;
+    border: 1px solid #27c2a0;
+  }
+  
+  .steel {
+    background-color: #1414b9;
+    border: 1px solid #252561;
+  }
+  
+  .dragon {
+    background-color: #38f868;
+    border: 1px solid #47a124;
+  }
+  
+  .fairy {
+    background-color: #cf2dc2;
+    border: 1px solid #e98be1;
+  }
